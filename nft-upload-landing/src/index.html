@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Wallets Trade </title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Upload Your NFT</h1>
+    </header>
+    <main>
+        <form id="nft-upload-form">
+            <label for="nft-file">Select NFT File:</label>
+            <input type="file" id="nft-file" name="nft-file" accept=".png, .jpg, .jpeg, .gif, .mp4, .webm" required>
+            <button type="submit">Upload NFT</button>
+        </form>
+        <div id="upload-status"></div>
+    </main>
+    <script src="js/main.js"></script>
+    <script src="js/nft-upload.js"></script>
+</body>
+</html>
