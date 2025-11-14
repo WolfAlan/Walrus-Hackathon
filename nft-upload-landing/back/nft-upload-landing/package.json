@@ -1,0 +1,27 @@
+{
+  "name": "nft-upload-landing",
+  "version": "1.0.0",
+  "description": "A Vite project for NFTs Trade with TypeScript.",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "typescript": "^4.5.0",
+    "vite": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "@vitejs/plugin-vue": "^1.0.0"
+  },
+  "keywords": [
+    "nft",
+    "upload",
+    "vite",
+    "typescript"
+  ],
+  "author": "WolfAlan",
+  "license": "MIT"
+}
